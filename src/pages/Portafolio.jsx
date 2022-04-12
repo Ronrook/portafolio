@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Proyect from '../components/Proyect';
-import ojitos from '../images/workimg.jpeg';
+import ojitos from  '../images/workImg.jpeg';
 
 function Portafolio() {
         return (
