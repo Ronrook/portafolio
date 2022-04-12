@@ -11,7 +11,7 @@ import Data from '../data'
 
 function Home() {
     return (
-        <div name='home' className='w-full h-screen bg-[#050533]'>
+        <div name='home' className='w-full h-screen bg-[#0a192f]'>
             <div className='pt-48 max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <Hello/>
                 <div className='flex justify-center'>

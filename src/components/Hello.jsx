@@ -1,11 +1,6 @@
 
-
-import React from 'react'
-
 import CV from '../assest/CV.pdf'
 
-import { HiCode } from "react-icons/hi";
-import { Link } from "react-router-dom";
 
 export default function Hello() {
     return (
@@ -17,12 +12,10 @@ export default function Hello() {
                 Desarrollador <br /> Full Stack
             </h1>
             <a href={CV} download={"Ronald-Rosero-cv"} className="p-4">
-                <button className="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+                <button className="bg-transparent hover:bg-[#050533] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
                 Descarga mi CV
                 </button>
             </a>
-            
-        
         </div>
     )
 }
