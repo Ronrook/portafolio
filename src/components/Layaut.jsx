@@ -9,7 +9,7 @@ function Layaut({children}) {
 
  
   return (
-        <div className="h-screen">
+        <div>
             <Navbar />
             
             

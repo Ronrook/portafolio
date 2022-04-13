@@ -21,9 +21,9 @@ function Contact() {
     }
 
     return (
-        <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+        <div name='contact' className='w-full h-screen bg-[#0a1f3f] flex justify-center items-center p-4'>
             <form method='POST' className='flex flex-col max-w-[600px] w-full' onSubmit={sendEmail}>
-                <div className='pb-8 mt-32'>
+                <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300'>Contáctame</p>
                     <p className='text-gray-300 py-4'>// Enviame un mensaje y ponte en contacto conmigo</p>
                 </div>
@@ -32,7 +32,7 @@ function Contact() {
                 <textarea className='bg-[#ccd6f6] p-2' name="user_message" rows="10" placeholder='Mensaje'></textarea>
 
                 
-                <div className="flex flex-col justify-center items-center">
+                <div className="absolute top-96 left-auto ">
                     <Modal handleModal= {handleModal} isModal={isModal}/>
                 </div>
                 <button className={isModal? 'hidden': 'text-white border-2 hover:bg-blue-500 px-4 py-3 my-8 mx-auto flex items-center'} onClick={handleModal}>Enviar</button>

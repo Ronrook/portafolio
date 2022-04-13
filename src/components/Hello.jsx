@@ -12,7 +12,7 @@ export default function Hello() {
                 Desarrollador <br /> Full Stack
             </h1>
             <a href={CV} download={"Ronald-Rosero-cv"} className="p-4">
-                <button className="bg-transparent hover:bg-[#050533] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+                <button className="bg-transparent hover:bg-[#050533] text-white font-semibold hover:text-white py-2 px-4 border border-white rounded">
                 Descarga mi CV
                 </button>
             </a>
