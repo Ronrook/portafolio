@@ -4,7 +4,7 @@ import CV from '../assest/CV.pdf'
 
 export default function Hello() {
     return (
-        <div className='text-white flex flex-col justify-center items-center max-w-[1000px] mx-auto px-8  h-full'>
+        <div className='text-white flex flex-col justify-center items-center  mx-auto px-8'>
             <h2 className='text-center mb-4 text-lg sm:text-2xl md:text-3xl lg:text-5xl'>
                 Hola mi nombre es <br /> Ronald Esteban
             </h2>

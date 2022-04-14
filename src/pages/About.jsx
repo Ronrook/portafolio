@@ -34,7 +34,7 @@ function About() {
                     </div>
 
                     
-          </div>
+                </div>
                 
                     
                     
@@ -44,7 +44,7 @@ function About() {
             </div>
             
       
-    </div>
+        </div>
     )
 }
 export default About;

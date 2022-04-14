@@ -11,21 +11,20 @@ import Data from '../data'
 
 function Home() {
     return (
-        <div name='home' className='w-full h-screen bg-[#0a192f]'>
-            <div className='pt-48 max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div name='home' className='w-full h-screen bg-[#154895]'>
+            <div className='pt-48 h-sreen max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center'>
                 <Hello/>
-                <div className='flex justify-center'>
-                    <img className='w-1/3' src={ojitos} alt="" />
-                </div>
-
-
+                
+                <img className='w-2/3' src={ojitos} alt="" />
+                
+                
             </div>
             
             
             
             
             
-            <div className='bg-[#0a192f] w-full max-h-md mx-auto lg:h-full'>
+            <div className='bg-[#124490] w-full max-h-md mx-auto lg:h-full'>
                 <h2 
                 className='text-white pt-32 text-center  text-2xl md:text-3xl lg:text-5xl'>Conoce sobre mí
                 </h2>
