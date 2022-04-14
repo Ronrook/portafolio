@@ -4,7 +4,7 @@ const profile = `Soy Estudiante de Análisis y Desarrollo de Software, programad
 
 
 const skills = `Tengo habilidades en metodología scrum y gestión
-de proyectos, soy una persona creativa con capacidad de aportar ideas útiles
+de proyectos, soy creativo con capacidad de aportar ideas útiles
 para cumplir los requerimientos de los proyectos.`;
 
 
