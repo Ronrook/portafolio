@@ -1,5 +1,5 @@
 
-import CV from '../assest/MY-CV.pdf'
+import CV from '../assest/Ronald-Esteban-CV.pdf'
 
 
 export default function Hello() {
