@@ -1,5 +1,5 @@
 
-import CV from '../assest/CV.pdf'
+import CV from '../assest/MY-CV.pdf'
 
 
 export default function Hello() {
@@ -11,7 +11,7 @@ export default function Hello() {
             <h1 className='text-center mb-2 text-2xl sm:text-4xl md:text-6xl lg:text-8xl'>
                 Desarrollador <br /> Full Stack
             </h1>
-            <a href={CV} download={"Ronald-Rosero-cv"} className="p-4">
+            <a href={CV} download={"Ronald-Esteban-cv"} className="p-4">
                 <button className="bg-transparent hover:bg-[#050533] text-white font-semibold hover:text-white py-2 px-4 border border-white rounded">
                 Descarga mi CV
                 </button>
