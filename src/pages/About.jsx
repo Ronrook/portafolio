@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import ojitos from '../images/ojitos-fondo.jpg';
-import programador from '../images/programador.jpeg';
+import programador from '../images/foto-cv2.jpg';
 
 function About() {
 

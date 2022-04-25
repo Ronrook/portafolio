@@ -9,7 +9,7 @@ function Layaut({children}) {
 
  
   return (
-        <div>
+        <div className="">
             <Navbar />
             
             

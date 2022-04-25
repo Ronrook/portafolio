@@ -3,7 +3,7 @@
 
 import React from 'react'
 
-function Proyect({img}) {
+function Proyect({img, name}) {
     return (
         <div
             style={{ backgroundImage: `url(${img})` }}
@@ -12,17 +12,17 @@ function Proyect({img}) {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                {name}
                 </span>
                 <div className='pt-8 text-center'>
                     <a href='/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                        Demo
+                       <a href="http://meetingacademy.herokuapp.com/login" target="_blank">Demo</a>
                     </button>
                     </a>
                     <a href='/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                        Code
+                    <a href="https://github.com/doralysantander/chiwi-academy" target="_blank">Code</a>
                     </button>
                     </a>
                 </div>

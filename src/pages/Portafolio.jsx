@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Proyect from '../components/Proyect';
-import ojitos from  '../images/workImg.jpeg';
+import chiwi from  '../images/chiwi-academy.png';
 
 function Portafolio() {
         return (
@@ -19,12 +19,8 @@ function Portafolio() {
                     <div className='mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                         {/* Grid Item */}
-                        <Proyect img={ojitos}/>
-                        <Proyect img={ojitos}/>
-                        <Proyect img={ojitos}/>
-                        <Proyect img={ojitos}/>
-                        <Proyect img={ojitos}/>
-                        <Proyect img={ojitos}/>
+                        <Proyect img={chiwi}  name={'Laravel Application'}/>
+                        
                         
                         
                         

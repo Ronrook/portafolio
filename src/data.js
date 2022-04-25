@@ -1,6 +1,6 @@
 
 
-const profile = `Soy Estudiante de Análisis y Desarrollo de Software, programador web; con conocimientos de frontend y  backend.` ;
+const profile = `Soy estudiante de Análisis y Desarrollo de Software, programador web; con conocimientos de frontend y  backend.` ;
 
 
 const skills = `Tengo habilidades en metodología scrum y gestión
