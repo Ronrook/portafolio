@@ -3,7 +3,7 @@
 
 import React from 'react'
 
-function Proyect({img, name}) {
+function Proyect({img, name, demo, code}) {
     return (
         <div
             style={{ backgroundImage: `url(${img})` }}
@@ -17,12 +17,12 @@ function Proyect({img, name}) {
                 <div className='pt-8 text-center'>
                     <a href='/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                       <a href="http://meetingacademy.herokuapp.com/login" target="_blank">Demo</a>
+                    <a href={demo} target="_blank">Demo</a>
                     </button>
                     </a>
                     <a href='/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    <a href="https://github.com/doralysantander/chiwi-academy" target="_blank">Code</a>
+                    <a href={code} target="_blank">Code</a>
                     </button>
                     </a>
                 </div>

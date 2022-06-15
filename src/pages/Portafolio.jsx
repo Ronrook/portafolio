@@ -3,6 +3,7 @@
 import React from 'react'
 import Proyect from '../components/Proyect';
 import chiwi from  '../images/chiwi-academy.png';
+import scape from  '../images/scape.png';
 
 function Portafolio() {
         return (
@@ -19,9 +20,8 @@ function Portafolio() {
                     <div className='mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                         {/* Grid Item */}
-                        <Proyect img={chiwi}  name={'Laravel Application'}/>
-                        
-                        
+                        <Proyect img={chiwi}  name={'Laravel Application'} demo={"http://meetingacademy.herokuapp.com/login"} code={"https://github.com/doralysantander/chiwi-academy"}/>
+                        <Proyect img={scape}  name={'MERN Application'} demo={"https://escape-room-smoky.vercel.app/"} code={"https://github.com/Ronrook/Scape-room-backend"}/>
                         
                         
                     </div>
